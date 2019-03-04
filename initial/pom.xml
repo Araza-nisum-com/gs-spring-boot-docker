@@ -41,7 +41,7 @@
                 <artifactId>dockerfile-maven-plugin</artifactId>
                 <version>1.4.9</version>
                 <configuration>
-                    <repository>testRepository/${project.artifactId}</repository>
+                    <repository>/testRepository/${project.artifactId}</repository>
                 </configuration>
             </plugin>
             <plugin>
